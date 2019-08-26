@@ -18,4 +18,5 @@ module.exports = {
     nav: navConf,
     sidebar:sidebarConf,
   },
+  base:'/vuePerss.git/'
 }
