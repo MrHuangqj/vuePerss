@@ -1,7 +1,13 @@
 // config/navConf.js
 module.exports = [
   { text: 'Home', link: '/' },
+  { text: '个人', link: '/person/' },
   { text: 'Guide', link: '/guide/' },
+  { text: '系统', items: [
+    { text: 'centos', link: '/OS/centos/' },
+    { text: 'manjaro', link: '/OS/manjaro/' },
+    { text: 'windows', link: '/OS/windows/' },
+  ]},
   { text: '基础', items: [
     { text: 'Algorithm', link: '/base/algorithm/' },
     { text: 'Interview', link: '/base/interview/' },
