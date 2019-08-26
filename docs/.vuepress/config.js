@@ -18,5 +18,11 @@ module.exports = {
     nav: navConf,
     sidebar:sidebarConf,
   },
-  base:'/vuePerss.git/'
+  base:'/vuePerss/',
+  configureWebpack: (config, isServer) => {
+    if (!isServer) {
+      // 修改客户端的 webpack 配置
+      config.output.publicPath = './'
+    }
+  }
 }
