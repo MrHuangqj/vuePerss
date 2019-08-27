@@ -1,2 +1,2 @@
 # 个人博客网站
-## 访问地址：https://mrhuangqj.github.io/vuePerss/dist
+## 访问地址：https://mrhuangqj.github.io/vuePerss/
