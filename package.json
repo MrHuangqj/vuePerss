@@ -1,17 +1,27 @@
 {
-  "name": "VuePress",
+  "name": "template",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "template",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "vuepress",
+    "theme",
+    "material design"
+  ],
+  "dependencies": {
+    "vuepress-theme-indigo-material": "^1.0.22"
+  },
   "devDependencies": {
-    "vuepress": "^1.0.3"
+    "babel-eslint": "8.2.6",
+    "babel-plugin-component": "1.1.1",
+    "eslint": "5.0.0",
+    "eslint-plugin-vue": "5.2.2",
+    "moment": "2.24.0",
+    "node-sass": "4.12.0",
+    "sass-loader": "7.1.0",
+    "vuepress": "1.0.2"
   }
 }
